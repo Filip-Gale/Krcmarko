@@ -44,15 +44,14 @@
                 <article id="forma">
                     <!-- https://formsubmit.co/ -->
                     <h2>Rezervacija</h2>
-                    <form action="https://formsubmit.co/filipgale6@gmail.com" method="POST" enctype="text/plain">
-                        <input type="hidden" name="_next" value="https://filip-gale.github.io/Krcmarko/rezerviraj.html">
-                        <input type="hidden" name="_url" value="https://filip-gale.github.io/Krcmarko/rezerviraj.html">
-                        <input type="hidden" name="_captcha" value="false">
-                        <input type="hidden" name="_subject" value="Nova rezervacija!">
+                    <form target="_blank" action="https://formsubmit.co/filipgale6@gmail.com" method="POST">
                         <input type="hidden" name="_template" value="table">
-                        <input type="text" name="ime" placeholder=" Ime i prezime">
-                        <input type="email" name="mail" placeholder=" Mail">
-                        <textarea name="poruka" cols="0" rows="0" placeholder=" Poruka..."></textarea>
+                        <input type="hidden" name="_subject" value="Nova rezervacija!">
+                        <input type="hidden" name="_next" value="https://formsubmit.co/live-demo">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="text" name="name" class="form-control" placeholder=" Ime i Prezime" required>
+                        <input type="email" name="email" class="form-control" placeholder=" Email" required>
+                        <textarea placeholder="Your Message" class="form-control" name="message" rows="0" cols="0" required></textarea>
                         <input type="submit" value ="Pošalji" id="button" >
                     </form>
 
