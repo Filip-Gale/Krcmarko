@@ -42,12 +42,17 @@
 
             <section>
                 <article id="forma">
+                    <!-- https://formsubmit.co/ -->
                     <h2>Rezervacija</h2>
-                    <form action="https://formsubmit.co/filipgale6@gmail.com" method="post" enctype="text/plain">
+                    <form action="https://formsubmit.co/filipgale6@gmail.com" method="POST" enctype="text/plain">
+                        <input type="hidden" name="_next" value="https://filip-gale.github.io/Krcmarko/rezerviraj.html">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_subject" value="Nova rezervacija!">
+                        <input type="hidden" name="_template" value="table">
                         <input name="ime" type="text" placeholder=" Ime i prezime">
-                        <input name="mail" type="mail" placeholder=" Mail">
+                        <input name="mail" type="email" placeholder=" Mail">
                         <textarea name="poruka" id="" cols="0" rows="0" placeholder=" Poruka..."></textarea>
-                        <input type="submit" value ="Pošalji" id="button" onclick="sendEmail()">
+                        <input type="submit" value ="Pošalji" id="button" >
                     </form>
 
                 </article>
