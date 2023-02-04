@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("img/back1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+  }
+
+nav{
+    z-index: 2;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+
+ul{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    background-color:#0F171E;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: #2c3e3e 1px solid;
+    border-top: 0;
+    left: 41%;
+    font-size: 24px;
+    padding: 0 10px;
+    color: #af9878;
+    z-index: 2;
+}
+
+ul img{
+    width: 50px;
+}
+
+li{
+    margin: 10px 15px;
+    transition: 0.1s;
+    z-index: 2;
+}
+
+
+
+li:hover{
+    color: white;
+    font-size: 24px;
+    scale: 1.1;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+    background:  center/cover url("img/logo.png") no-repeat;
+}
+
+#logo:hover{
+    background-image: url("img/jelen2.png");
+}
+
+a{
+    text-decoration: none;
+    color: #e4c398;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+.gumb{
+    text-align: center;
+    padding: 10px 15px;
+    background-color: #be745e;
+    color: #0F171E;
+    font-weight: bold;
+    font-size: 28px;
+    border-radius: 20px;
+    transition: 0.2s ease-out;
+    width: 50%;
+    margin: 40px auto;
+}
+
+.gumb:hover{
+    background-color: #e4c398;
+    width: 60%;
+}
+
+
+
+footer{
+    color: #578b8b;
+    text-align: center;
+    background-color: #070b0e;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a{
+    width: 8%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.footItem{
+    width: 100%;
+    
+}
+
+footer a:hover{
+    background-color: #0F171E;
+}
+
+.footItem img{
+    width: 20%;
+}
+
+.footItem p{
+    margin-top: 0px;
+}

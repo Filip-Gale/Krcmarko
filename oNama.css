@@ -1,0 +1,135 @@
+main{
+    padding: 50px;
+    background-color: #2c3e3e;
+}
+
+.blankspace{
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-image: url("img/onamaPlaceHolder.png");
+    background-size: cover;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1700px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+section > img{
+    width: 25%;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    margin: 30px;
+    text-align: center;
+    color: #e4c398;
+    background-color:#0F171E;
+    background-image: url("img/onamaPlaceHolder.png");
+    background-size: contain;
+    border: #2c3e3e 1px solid;
+    border-radius: 20px;
+    width: 48%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    user-select: none;
+}
+
+p{
+    font-size: 24px;
+    line-height: 1.5;
+    user-select: none;
+    color: #be745e;
+}
+
+img{
+    width: 300%;
+}
+
+.lijevaSlika p{
+    text-align: left;
+}
+
+.lijevaSlika img{
+    margin-right: 30px;
+}
+
+.desnaSlika{
+    text-align: left;
+}
+
+.desnaSlika img{
+    margin-left: 30px;
+}
+
+#kuna{
+    margin-right: 45px;
+    width: 450%;
+}
+
+#sokol{
+    flex-direction: column;
+    justify-content:baseline;
+}
+
+#sokol img{
+    width: 450%;
+    margin-top: -40px;
+}
+
+@media only screen and (max-width: 1450px) {
+    .invis{
+        display: none;
+    }
+    .lijevaSlika{
+        flex-direction: column-reverse;
+    }
+
+    article img, #kuna, #sokol img{
+        width: 70%;
+        margin-top: 20px;
+    }
+    .desnaSlika{
+        flex-direction: column;
+    }
+    footer a{
+        width: 30%;
+    }
+    nav, ul{
+        width: 95%;
+        left: 0;
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+  @media only screen and (max-width: 666px) {
+    section, article{
+        width: 100%;
+    }
+
+    .lijevaSlika, .desnaSlika{
+        margin: 30px 0;
+    }
+
+    #sokol{
+        width: 95%;
+    }
+    main{
+        padding: 2%;
+    }
+  }
