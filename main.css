@@ -43,7 +43,7 @@ ul{
     font-size: 24px;
     padding: 0 10px;
     color: #af9878;
-    z-index: 2;
+    z-index: 3;
 }
 
 ul img{
@@ -53,7 +53,6 @@ ul img{
 li{
     margin: 10px 15px;
     transition: 0.1s;
-    z-index: 2;
 }
 
 
@@ -148,7 +147,11 @@ footer a:hover{
         left: 4%;
         display: flex;
         justify-content: center;
-        z-index: 3;
+        
+    }
+    
+    footer a{
+        width: 30%;
     }
 }
 

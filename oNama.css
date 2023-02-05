@@ -1,6 +1,7 @@
 main{
     padding: 50px;
     background-color: #2c3e3e;
+    overflow-x: hidden;
 }
 
 .blankspace{
@@ -109,9 +110,6 @@ img{
     }
     .desnaSlika{
         flex-direction: column;
-    }
-    footer a{
-        width: 30%;
     }
     
   }
