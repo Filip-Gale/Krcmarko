@@ -22,6 +22,7 @@ section{
 
 section > img{
     width: 25%;
+    pointer-events: none;
 }
 
 article{
@@ -66,6 +67,7 @@ img{
 
 .lijevaSlika img{
     margin-right: 30px;
+    pointer-events: none;
 }
 
 .desnaSlika{
@@ -74,6 +76,7 @@ img{
 
 .desnaSlika img{
     margin-left: 30px;
+    pointer-events: none;
 }
 
 #kuna{
@@ -109,12 +112,7 @@ img{
     footer a{
         width: 30%;
     }
-    nav, ul{
-        width: 95%;
-        left: 0;
-        display: flex;
-        justify-content: center;
-    }
+    
   }
 
   @media only screen and (max-width: 666px) {
@@ -122,12 +120,12 @@ img{
         width: 100%;
     }
 
-    .lijevaSlika, .desnaSlika{
+    .lijevaSlika, .desnaSlika, #sokol .lijevaSlika{
         margin: 30px 0;
     }
 
     #sokol{
-        width: 95%;
+        width: 80%;
     }
     main{
         padding: 2%;

@@ -1,6 +1,9 @@
 *{
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
 }
 
 html{
@@ -136,4 +139,21 @@ footer a:hover{
 
 .footItem p{
     margin-top: 0px;
+}
+
+
+@media only screen and (max-width: 1450px) {
+    nav, ul{
+        width: 90%;
+        left: 4%;
+        display: flex;
+        justify-content: center;
+        z-index: 3;
+    }
+}
+
+@media only screen and (max-width: 666px) {
+    nav, ul{
+        left: 3%;
+    }
 }

@@ -3,19 +3,28 @@ body {
 }
 
 main img{
-    width: 100%;
+    width: 41.6%;
     position: absolute;
     z-index: -1;
+}
+
+#vje{
+    left: 0;
+}
+
+#jel{
+    right: 0;
 }
 
 #paralax{
     z-index: -2;
     margin-top: -10vh;
+    width: 100%;
 }
 
 section{
-    height: 90vh;
-    padding-top: 20vh;
+    width: 100%;
+    padding:20vh 0 30vh 0;
     z-index: 1;
 }
 
@@ -44,6 +53,7 @@ form{
 h2{
     font-size: 45px;
     margin-bottom: 50px;
+    user-select: none;
 }
 
 input , textarea{
