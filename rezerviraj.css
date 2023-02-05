@@ -4,7 +4,6 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    overflow-x: hidden;
 }
 
 main{
@@ -31,6 +30,7 @@ main img{
     position: absolute;
     top: 0;
     opacity: 0.3;
+    pointer-events: none;
 }
 
 #paralax2, #paralax3{
@@ -125,9 +125,18 @@ footer{
     height: 100px;
 }
 
+@media only screen and (max-width: 1450px) {
+    #vje, #jel, #paralax2, #paralax3{
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 666px) {
     article{
         width: 70%;
-        margin-left: 5%;
+    }
+    section{
+        padding-bottom: 50px;
+        padding-top: 200px;
     }
 }

@@ -118,7 +118,7 @@ footer{
 }
 
 footer a{
-    width: 8%;
+    width: 20%;
     padding: 10px;
     border-radius: 15px;
 }
@@ -158,5 +158,8 @@ footer a:hover{
 @media only screen and (max-width: 666px) {
     nav, ul{
         left: 3%;
+    }
+    footer a{
+        width: 70%;
     }
 }
