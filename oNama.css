@@ -122,10 +122,24 @@ img{
         margin: 30px 0;
     }
 
+    #sokol .lijevaSlika{
+        width: 85%;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
     #sokol{
         width: 80%;
+        padding:0;
     }
     main{
         padding: 2%;
     }
+
+    .gumb, .gumb:hover{
+        width: 80%;
+    }
+    
   }

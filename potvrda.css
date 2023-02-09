@@ -1,0 +1,117 @@
+body {
+    background-image: url("img/rezervacijaBack.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+section{
+    padding: 6% 20% 100px;
+}
+
+article{
+    margin: 50px 100px;
+    padding: 10% 20%;
+    background-color: #e8e5d3;
+    text-align: center;
+    color: #004b15;
+    background-image: url("img/okvir.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+    width: 100%;
+    height: 80vh;
+    background-image: url("img/okvir.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    user-select: none;
+    pointer-events: none;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: bolder;
+    user-select: none;
+    text-align: center;
+    width: 100%;
+}
+
+p{
+    font-size: 24px;
+    margin-top: 100px;
+    text-decoration: underline;
+    font-weight: bold;
+    user-select: none;
+    text-align: center;
+}
+
+#imgContainer{
+    width: 150%;
+    margin-left: -25%;
+    margin-top: 80px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#imgContainer img{
+    width: 25%;
+    margin: 50px 10px;
+    pointer-events: none;
+}
+
+#potpis{
+    border-bottom: 3px #004b15 solid;
+}
+
+.gumb{
+    width: 30%;
+    margin-top: -70px;
+}
+
+.gumb:hover{
+    width: 35%;
+}
+
+@media only screen and (max-width: 1450px) {
+    section{
+        padding: 6% 0% 100px;
+    }
+    article{
+        padding: 10% 10%;
+    }
+    #imgContainer img{
+        width: 15%;
+    }
+}
+
+@media only screen and (max-width: 666px) {
+    article{
+        margin: 50px 10px;
+    }
+    #imgContainer{
+        margin: 0;
+        width: 100%;
+        margin-top: 50px;
+    }
+    #imgContainer img{
+        width: 15%;
+    }
+    h2{
+        margin-top: 50px;
+    }
+
+    h2, .gumb{
+        font-size: 24px;
+    }
+}

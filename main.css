@@ -157,7 +157,7 @@ footer a:hover{
 
 @media only screen and (max-width: 666px) {
     nav, ul{
-        left: 3%;
+        left: 2%;
     }
     footer a{
         width: 70%;
