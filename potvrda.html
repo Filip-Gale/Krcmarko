@@ -12,6 +12,7 @@
     
     
     <body>
+        <div id="preloader"></div>
         <nav>
             <ul>
                 <a href="rezerviraj.html"><li>Rezerviraj</li></a>
@@ -49,5 +50,12 @@
                 </div>
             </a>
         </footer>
+
+        <script>
+            var loader = document.getElementById("preloader");
+            window.addEventListener("load", function(){
+                loader.style.display = "none";
+            })
+        </script>
     </body>
 </html>
